@@ -16,7 +16,7 @@ int main() {
     printf("APROVADO!!!");
   } else {
     printf("Voce não foi aprovado \n faça o exame: ");
-    scanf("%f", exame);
+    scanf("%f", &exame);
     if (((media + exame) / 2) >= 5) {
       printf("APROVADO!!!");
     } else {
